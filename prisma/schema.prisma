@@ -1,0 +1,47 @@
+generator client {
+  provider = "prisma-client-js"
+  
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Resort {
+  id          String   @id @default(uuid())
+  name        String
+  location    String
+  description String?
+  createdAt   DateTime @default(now())
+
+  rooms       Room[]
+}
+
+model Room {
+  id        String   @id @default(uuid())
+  resortId  String
+  name      String
+  price     Int
+  capacity  Int
+  createdAt DateTime @default(now())
+
+  resort       Resort        @relation(fields: [resortId], references: [id])
+  reservations Reservation[]
+}
+
+model Reservation {
+  id        String   @id @default(uuid())
+
+  roomId    String
+  room      Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
+
+  guestName String
+  checkIn   DateTime
+  checkOut  DateTime
+
+  createdAt DateTime @default(now())
+
+  @@index([roomId])
+}
+
+
