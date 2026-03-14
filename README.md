@@ -316,12 +316,12 @@ All API endpoints follow RESTful conventions:
 
 This application showcases:
 
-✅ **Full-stack TypeScript proficiency** – End-to-end type safety from database to UI  
-✅ **Booking conflict logic** – Server-side overlap detection with date validation  
-✅ **Database design expertise** – Normalized schema with cascading relationships and indexes  
-✅ **Modern React patterns** – App Router with server and client components  
-✅ **RESTful API design** – Proper HTTP methods, status codes, and error handling  
-✅ **Production-ready structure** – Environment variables, migrations, and deployment-ready setup  
+ **Full-stack TypeScript proficiency** – End-to-end type safety from database to UI  
+ **Booking conflict logic** – Server-side overlap detection with date validation  
+ **Database design expertise** – Normalized schema with cascading relationships and indexes  
+ **Modern React patterns** – App Router with server and client components  
+ **RESTful API design** – Proper HTTP methods, status codes, and error handling  
+ **Production-ready structure** – Environment variables, migrations, and deployment-ready setup  
 
 ---
 
@@ -329,21 +329,21 @@ This application showcases:
 
 Potential improvements for a production deployment:
 
-- [ ] **Authentication**: Integrate NextAuth.js or Clerk for secure admin access
-- [ ] **Image Uploads**: Add room photos with Cloudinary or S3
-- [ ] **Search & Filtering**: Full-text search on resorts and date-based availability filters
-- [ ] **Payment Integration**: Stripe for handling deposits and booking payments
-- [ ] **Email Notifications**: Confirmation emails via Resend or SendGrid
-- [ ] **Calendar View**: Visual date picker showing room availability
-- [ ] **Multi-currency Support**: Dynamic pricing based on user locale
-- [ ] **Performance Monitoring**: Integrate Sentry or LogRocket for error tracking
+-  **Authentication**: Integrate NextAuth.js or Clerk for secure admin access
+-  **Image Uploads**: Add room photos with Cloudinary or S3
+-  **Search & Filtering**: Full-text search on resorts and date-based availability filters
+-  **Payment Integration**: Stripe for handling deposits and booking payments
+-  **Email Notifications**: Confirmation emails via Resend or SendGrid
+-  **Calendar View**: Visual date picker showing room availability
+-  **Multi-currency Support**: Dynamic pricing based on user locale
+-  **Performance Monitoring**: Integrate Sentry or LogRocket for error tracking
 
 ---
 
 ## 👨‍💻 Author
 
 **Jack Jalandoni**  
-[GitHub](https://github.com/itzjackj) • [LinkedIn](https://www.linkedin.com/in/jack-jalandoni-7813b03a6/)
+[GitHub](https://github.com/itzjackj) • [LinkedIn](https://www.linkedin.com/in/jack-jalandoni/)
 
 ---
 
