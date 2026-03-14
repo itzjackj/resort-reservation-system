@@ -340,13 +340,13 @@ Potential improvements for a production deployment:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Jack Jalandoni**  
 [GitHub](https://github.com/itzjackj) • [LinkedIn](https://www.linkedin.com/in/jack-jalandoni/)
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
